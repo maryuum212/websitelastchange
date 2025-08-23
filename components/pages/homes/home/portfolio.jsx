@@ -37,8 +37,8 @@ const Portfolio = () => {
                 <div className="row mb-60">
                     <div className="col-xl-12">
                         <div className="portfolio__area-title t-center">
-                            <span className="subtitle-one">Company Case Study</span>
-                            <h2>Our Consulting Success</h2>
+                            <span className="subtitle-one"> LATEST CHANNEL NEWS </span>
+                            <h2>Partners news</h2>
                         </div>
                     </div>
                 </div>

@@ -1,15 +1,15 @@
 import Link from "next/link";
-import image1 from "../../../../public/assets/img/pages/experience-1.jpg";
-import image2 from "../../../../public/assets/img/pages/experience-2.jpg";
+import image1 from "../../../../public/assets/img/pages/pimage_6_dlink.png";
+import image2 from "../../../../public/assets/img/pages/nimage_15_estap.png";
 import SkillBar from "../../common/skill-bar";
 import SkillBarItem from "../../common/skill-bar";
 
 const Experience = () => {
     const experienceContent = {
         subtitle: 'Brand Success',
-        title: 'Empowering Brand Growth Together',
-        des: 'Phasellus vel sollicitudin velit. Fusce consequat pretium ligula vel aliquam. Vestibulum molestie luctus sapien et euismod. Cras convallis, purus in elementum lacinia,',
-        btn_text: 'Get Consulting',
+        title: 'Video Conferecing  Solutiones',
+        des: 'Browser viideo conferencing  including cameres,roomsolutiones,,webbcams,headsets,collaaboration tools,and acceessories',
+        btn_text: 'Learn More',
         btn_link: '/request-quote',
         progress1: '60',
         progress2: '85',

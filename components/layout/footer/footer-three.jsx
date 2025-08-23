@@ -1,6 +1,6 @@
 import Social from "@/components/data/social";
-import logo1 from "../../../public/assets/img/logo-6.png";
-import logo2 from "../../../public/assets/img/logo-7.png";
+import logo1 from "../../../public/assets/img/mylogo.png";
+import logo2 from "../../../public/assets/img/mylogo.png";
 import footerBg from "../../../public/assets/img/shape/footer-bg-2.png";
 import Link from "next/link";
 
@@ -37,7 +37,8 @@ const FooterThree = () => {
                                         <img className="dark-n" src={logo1.src} alt="logo" />
                                         <img className="light-n" src={logo2.src} alt="logo" />
                                     </Link>
-                                    <p>Proin pretium sem libero, nec aliquet augue lobortis in. Phasellus nibh quam, molestie id est sit amet, luctus pulvinar </p>
+                                    <span>News letter</span>
+                                    <p>keep up on our.always evolving product eatures and technology.ntereyy your e-mail and subscriibe letter tto our news lette</p>
                                 </div>
                             </div>
                         </div>

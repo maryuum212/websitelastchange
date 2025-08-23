@@ -1448,15 +1448,15 @@ Dark CSS
 }
 
 .dark-mode .header__area-menubar-center-menu ul li.menu-item-has-children:hover>a::after {
-  background: var(#F94C30);
+  background: var(--primary-color-1);
 }
 
 .dark-mode .header__area-menubar-center-menu.two ul li.menu-item-has-children:hover>a::after {
-  background: var(#F94C30);
+  background: var(--primary-color-1);
 }
 
 .dark-mode .header__area-menubar-center-menu.three ul li.menu-item-has-children:hover>a::after {
-  background: var(#F94C30);
+  background: var(--primary-color-1)
 }
 
 .dark-mode .header__sticky-sticky-menu {

@@ -5,9 +5,9 @@ import servicesData from '@/components/data/services-data';
 const Services = () => {
     const servicesItem = servicesData.slice(0, 4);
     const servicesContent = {
-        subtitle: 'OUR SOLUTIONS',
+        subtitle: 'Barand Partnership',
         title: 'Consulting Services',
-        btn_text: 'ALL SERVICES',
+        btn_text: 'learn More',
         btn_link: '/services'
     }
     return (

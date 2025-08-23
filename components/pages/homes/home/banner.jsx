@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade, Autoplay, Pagination } from 'swiper/modules';
-import slider1 from "../../../../public/assets/img/banner/slide-bg-dlnk-business.png";
-import slider2 from "../../../../public/assets/img/banner/pei-dlink-puer-earth-event-slider.png";
+import slider1 from "../../../../public/assets/img/banner/homepageslider/nimage_9_peidistribution_vertiv_roadshow.jpg";
+import slider2 from "../../../../public/assets/img/banner/homepageslider/nimage_6_SLIDER_AWARD.png";
 import ModalVideo from "react-modal-video";
 import Link from "next/link";
 
