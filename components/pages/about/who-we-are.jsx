@@ -1,6 +1,6 @@
 import React from 'react';
-import bgImage from "../../../public/assets/img/about/about-solution.jpg";
-import image from "../../../public/assets/img/about/about-9.jpg";
+import bgImage from "../../../public/assets/img/about/6.png";
+import image from "../../../public/assets/img/about/4.png";
 import shape from "../../../public/assets/img/shape/about-solution.png";
 import Count from '../common/count';
 import Link from 'next/link';
@@ -14,9 +14,13 @@ const WhoWeAre = () => {
                         <div className="col-xl-6 col-lg-7 lg-mb-30">
                             <div className="company__two-left">
                                 <div className="company__two-left-title">
-                                    <span className="subtitle-one">Who we are</span>
-                                    <h2>best company Especially in Business</h2>
-                                    <p>Aenean ac vulputate nibh, sed fringilla metus. Pellentesque porttitor felis eu nunc feugiat, nec condimentum magna ultricies. Nam vitae est accumsan nunc</p>
+                                    <span className="subtitle-one">INVESTOR RELATIONS</span>
+                                    
+                                    <p>
+                                    
+PEI distribution bring the power of technology to East Africa. By providing uninterrupted supply from some of the most esteemed international brands engaged in Information technology, data center, power & telecommunication products. We are a fast growing, volume moving and life transforming company 
+based in all regions of Somalia & Djibouti. To find out more, contact us or follow us on Facebook.com
+                                    </p>
                                 </div>
                                 <div className="company__two-left-skill">
                                     <div className="company__two-left-skill-item">
@@ -28,7 +32,7 @@ const WhoWeAre = () => {
                                         <h6>happy customer worldwide</h6>
                                     </div>
                                 </div>
-                                <Link className="btn-two" href="/about">Discover more<i className="far fa-chevron-double-right"></i></Link>
+                                <Link className="btn-two" href="/about">Join Oure Team<i className="far fa-chevron-double-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-5">

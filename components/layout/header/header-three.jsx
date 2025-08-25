@@ -35,27 +35,7 @@ const HeaderThree = () => {
     return (
         <>
             <div className="header__three">
-                {/* Top Bar */}
-                <div className="topbar__three">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-xl-5 col-lg-6">
-                                <div className="topbar__three-left lg-t-center">
-                                    <a href="#"><i className="fas fa-bell icon-animation"></i>We help take your small business to the next level.</a>
-                                </div>
-                            </div>
-                            <div className="col-xl-7 col-lg-6">
-                                <div className="topbar__three-right t-right lg-t-center">
-                                    <ul>
-                                        <li><a href="tel:(+107)555-0133"><i className="fas fa-phone-alt"></i>(+107) 555-0133</a></li>
-                                        <li><a href="mailto:conbix@gmail.com"><i className="fas fa-envelope"></i>conbix@gmail.com</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+            
                 {/* Main Header */}
                 <div className="header__area header__sticky">
                     <div className="container">

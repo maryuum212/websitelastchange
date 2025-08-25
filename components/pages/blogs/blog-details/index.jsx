@@ -3,8 +3,8 @@
 import BlogSingleMain from "./blog-details";
 import BreadCrumb from "../../common/breadcrumb";
 import SEO from "@/components/data/seo";
-import HeaderOne from "@/components/layout/headers/header-one";
-import FooterTwo from "@/components/layout/footers/footer-two";
+import HeaderOne from "@/components/layout/header/header-three";
+import FooterTwo from "@/components/layout/footer/footer-three";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
 
 const BlogDetails = ({singleData}) => {

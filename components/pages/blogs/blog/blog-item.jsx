@@ -16,10 +16,7 @@ const BlogItem = ({currentBlogItems}) => {
 						</div>
 						<div className="blog__two-item-content">
 							<div className="blog__two-item-content-meta">
-								<ul>
-									<li><a href="#"><i className="far fa-user"></i>By-Admin</a></li>
-									<li><a href="#"><i className="far fa-comment-dots"></i>Comments ({data.comment})</a></li>
-								</ul>
+								
 							</div>
 							<h4><Link href={`/blog/${data.id}`}>{data.title}</Link></h4>
 							<Link className="btn-six" href={`/blog/${data.id}`}>Read More<i className="far fa-chevron-double-right"></i></Link>

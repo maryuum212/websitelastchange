@@ -1,21 +1,21 @@
 "use client"
 
 import SEO from "@/components/data/seo";
-import HeaderOne from "@/components/layout/headers/header-one";
+import Headerthree from "@/components/layout/header/header-three";
 import BreadCrumb from "../../common/breadcrumb";
 import PortfolioFilter from "./portfolio-filter";
-import FooterTwo from "@/components/layout/footers/footer-two";
+import Footerthree from "@/components/layout/footer/footer-three";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
 
 const PortfolioFilterPage = () => {
     return (
         <>
             <SEO pageTitle='Portfolio Filter' />
-            <HeaderOne />
+            <Headerthree />
             <BreadCrumb title="Portfolio Filter" innerTitle="Portfolio Filter" />
             <PortfolioFilter />
             <div className='all-footer'>
-                <FooterTwo />
+                <Footerthree />
             </div>
             <ScrollToTop />
         </>

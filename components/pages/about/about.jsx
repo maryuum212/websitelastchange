@@ -4,11 +4,11 @@ import Count from "../common/count";
 
 const AboutMain = () => {
     const aboutContent = {
-        image_1: '/assets/img/about/about-7.jpg',
-        image_2: '/assets/img/about/about-8.jpg',
-        subtitle: 'Our Company',
-        title: 'Find out more about our business consulting',
-        description: 'Fusce quis lacus laoreet, dignissim quam eu, scelerisque tortor. Cras volutpat aliquet efficitur. Quisque dignissim justo ac erat tincidunt tristique. Curabitur id tortor ipsum. Suspendisse suscipit commodo turpis eu interdum',
+        image_1: '/assets/img/about/3.jpg',
+        image_2: '/assets/img/about/5.jpg',
+        subtitle: 'Our History',
+        title: 'Find out more about our Historey PEI',
+        description: 'PEI distribution provide supply chain management service to some of the most esteemed international brands engaged in Information technology, data center, power & telecoms products. Through the years, we have maintained an excellent partner relationship and market presence facilitation to manufacturer such as Lenovo, D-link, Vertiv, Epson, Microsoft, Dell, Logitech, Estap, and Eastman Solar. PEI has in-depth knowledge and understanding of its fast growing market and a broad local presence such as warehousing facility and show rooms in Somalia, Djibouti, Ethiopia and Dubai.',
         btn_text: 'Discover More',
         btn_href: '/about-us',
         shape_1: '/assets/img/shape/about-1.png',
@@ -25,10 +25,7 @@ const AboutMain = () => {
                                     <img src={aboutContent.image_1} alt="image" />
                                     <img src={aboutContent.image_2} alt="image" />
                                 </div>
-                                <div className="about__company-left-experience">
-                                    <h2><Count number={180} />+</h2>
-                                    <h6>Get national Award</h6>
-                                </div>
+                             
                             </div>
                         </div>
                         <div className="col-xxl-5 col-xl-6">

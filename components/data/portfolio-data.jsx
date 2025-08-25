@@ -36,7 +36,7 @@ const portfolioData = [
     },
     {        
         id: 'business-analytics',
-        title: 'Business Analytics',
+        title: 'Vendore',
         subtitle: 'Corporate',
         image: image5,
         category: "corporate",

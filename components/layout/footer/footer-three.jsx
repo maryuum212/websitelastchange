@@ -83,9 +83,9 @@ const FooterThree = () => {
                             <div className="footer__three-widget border-one tow">
                                 <h4>Working Time</h4>
                                 <div className="footer__three-widget-hour">
-                                    <p>Mon - fri : 9:00 AM - 5:00 PM</p>
+                                    <p>Mon - thurs: 9:00 AM - 5:00 PM</p>
                                     <p>sat : 10:00 AM - 6:00 PM</p>
-                                    <p>Sunday Close</p>
+                                    <p>friday Close</p>
                                     <div className="footer__three-widget-hour-social">
                                         <Social />
                                     </div>
@@ -98,7 +98,7 @@ const FooterThree = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-12">
-                                <p>Copyright 2024  <Link href="/">Conbix</Link> - All Rights Reserved By <a href="https://themeforest.net/user/themeori/portfolio" target="_blank">ThemeOri</a></p>
+                                <p>Copyright 2021  <Link href="/">PEI</Link> - All Rights Reserved By <a href="https://themeforest.net/user/themeori/portfolio" target="_blank">WaranCloudSoultion</a></p>
                             </div>
                         </div>
                     </div>

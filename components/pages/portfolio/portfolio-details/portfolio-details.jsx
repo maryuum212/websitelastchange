@@ -1,70 +1,54 @@
 import React from 'react';
 
-const PortfolioDetailsMain = ({singleData}) => {
+const PortfolioDetailsMain = ({ singleData }) => {
     return (
         <div className="portfolio__details dark__image section-padding">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-12">
-                        <div className="portfolio__details-image dark_image">
-                            <img src={singleData.image.src} alt="portfolio" />
-                            <div className="portfolio__details-meta">
-                                <div className="portfolio__details-meta-item">
-                                    <span>Date :</span>
-                                    <h6>21 March, 2024</h6>
-                                </div>
-                                <div className="portfolio__details-meta-item">
-                                    <span>Category :</span>
-                                    <h6>{singleData.title}</h6>
-                                </div>
-                                <div className="portfolio__details-meta-item">
-                                    <span>Customer :</span>
-                                    <h6>ThemeOri</h6>
-                                </div>
-                                <div className="portfolio__details-meta-item">
-                                    <span>Locations :</span>
-                                    <h6>Preston Rd. Inglewood,</h6>
-                                </div>
-                            </div>
-                        </div>
+                     
                     </div>
                 </div>
+
                 <div className="row mt-40">
                     <div className="col-lg-4 lg-mb-15">
-                        <h3>About Project</h3>
+                        <h3>Vendors</h3>
                     </div>
                     <div className="col-lg-8">
-                        <p>Graphic design is a creative and visual communication discipline that involves the art and practice of planning and projecting ideas and experiences with visual and textual content. It is a versatile field used in various media, such as print, digital, and multimedia, to convey messages, concepts, or information in an aesthetically pleasing and impactful manner.</p>
-                        <p>Graphic designers use various software tools like Adobe Photoshop, Illustrator, InDesign, and others to create their designs. The field continues to evolve with technological advancements and changing design trends, but the fundamental principles of visual communication and creativity remain at its core. Graphic design is integral to marketing,</p>
+                        <p>
+                            PEI distribution provide supply chain management service to some of the most esteemed 
+                            international brands engaged in Information technology, data center, power & telecoms 
+                            products. Through the years, we have maintained an excellent partner relationship and
+                            market presence facilitation to manufacturer such as Lenovo, D-link, Vertiv, Epson, 
+                            Microsoft, Dell, Logitech, Estap, and Eastman Solar. PEI has in-depth knowledge and
+                            understanding of its fast growing market and a broad local presence such as warehousing 
+                            facility and show rooms in Somalia, Djibouti, Ethiopia and Dubai.
+                        </p>
                     </div>
                 </div>
+
                 <div className="row mt-30 dark_image">
                     <div className="col-sm-4 sm-mb-25">
-                        <img className="img__full" src="../assets/img/portfolio/project-1.jpg" alt="portfolio" />
+                        <img className="img__full" src="../assets/img/portfolio/111.png" alt="portfolio" />
                     </div>
                     <div className="col-sm-4 sm-mb-25">
-                        <img className="img__full" src="../assets/img/portfolio/project-2.jpg" alt="portfolio" />
+                        <img className="img__full" src="../assets/img/portfolio/222.png" alt="portfolio" />
                     </div>
                     <div className="col-sm-4">
-                        <img className="img__full" src="../assets/img/portfolio/project-3.jpg" alt="portfolio" />
+                        <img className="img__full" src="../assets/img/portfolio/666.png" alt="portfolio" />
                     </div>
                 </div>
+
                 <div className="row mt-40">
-                    <div className="col-lg-4 lg-mb-15">
-                        <h3>The Challenges</h3>
+                    <div className="col-12">
+                        <h3 className="text-center mb-4">Benefits of being our partners</h3>
                     </div>
-                    <div className="col-lg-8">
-                        <p>Graphic design is a creative and visual communication discipline that involves the art and practice of planning and projecting ideas and experiences with visual and textual content. It is a versatile field used in various media, such as print, digital, and multimedia, to convey messages, concepts, or information in an aesthetically pleasing and impactful manner.</p>
-                        <p>Graphic designers use various software tools like Adobe Photoshop, Illustrator, InDesign, and others to create their designs. The field continues to evolve with technological advancements and changing design trends, but the fundamental principles of visual communication and creativity remain at its core. Graphic design is integral to marketing,</p>
-                    </div>
-                </div>
-                <div className="row mt-20">
-                    <div className="col-lg-4 lg-mb-15">
-                        <h3>The Solutions</h3>
-                    </div>
-                    <div className="col-lg-8">
-                        <p>Graphic design is a creative and visual communication discipline that involves the art and practice of planning and projecting ideas and experiences with visual and textual content. It is a versatile field used in various media, such as print, digital, and multimedia,</p>
-                        <p>Graphic designers use various software tools like Adobe Photoshop, Illustrator, InDesign, and others to create their designs. The field continues to evolve with ,</p>
+                    <div className="col-lg-8 offset-lg-2">
+                        <ul className="benefits-list">
+                            <li>No.1 technology distributor in the Horn of Africa</li>
+                            <li>Profound knowledge of local economies</li>
+                            <li>Reseller channel development and support</li>
+                        </ul>
                     </div>
                 </div>
             </div>

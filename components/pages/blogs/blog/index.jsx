@@ -1,10 +1,10 @@
 "use client"
 
 import SEO from "@/components/data/seo";
-import HeaderOne from "@/components/layout/headers/header-one";
+import HeaderOne from "@/components/layout/header/header-three";
 import BreadCrumb from "../../common/breadcrumb";
 import BlogGridMain from "./blog-grid";
-import FooterTwo from "@/components/layout/footers/footer-two";
+import FooterTwo from "@/components/layout/footer/footer-three";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
 
 

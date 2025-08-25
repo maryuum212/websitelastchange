@@ -1,10 +1,10 @@
 "use client"
 
 import SEO from "@/components/data/seo";
-import HeaderOne from "@/components/layout/headers/header-one";
+import HeaderOne from "@/components/layout/header/header-three";
 import BreadCrumb from "../../common/breadcrumb";
 import BlogStandardMain from "./blog-standard";
-import FooterTwo from "@/components/layout/footers/footer-two";
+import FooterTwo from "@/components/layout/footer/footer-three";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
 
 
@@ -14,7 +14,7 @@ const BlogStandardPage = () => {
             <SEO pageTitle='Blog Standard' />
             <HeaderOne />
             <BreadCrumb title="Blog Standard" innerTitle="Blog Standard" />
-            <BlogStandardMain />
+           
             <div className='all-footer'>
                 <FooterTwo />
             </div>
