@@ -21,10 +21,9 @@ const HomeOne = () => {
             <HeaderThree />
             <BannerOne />
             <About />
-            <CtaArea />
-            <Experience />
             <Portfolio />
-            <GetInTouch />
+            <Experience />
+
             <FooterThree />
             <ScrollToTop />
         </div>
